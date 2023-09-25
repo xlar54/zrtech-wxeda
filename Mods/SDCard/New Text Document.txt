@@ -1,0 +1,8 @@
+To use an SD card a hardware mod is required. You need to solder down an sd card connector to some free pins, like described here: http://zx-pk.ru/showthread.php?t=8635&page=31
+
+set_location_assignment PIN_3 -to SD_DAT3
+set_location_assignment PIN_2 -to SD_CMD
+set_location_assignment PIN_1 -to SD_CLK
+set_location_assignment PIN_141 -to SD_DAT
+
+
